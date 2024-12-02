@@ -1,0 +1,14 @@
+{
+    "name": "event-notifier",
+    "version": "1.0.0",
+    "description": "Real-Time Event Notifier API",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "express": "^4.21.1",
+        "node-cron": "^3.0.3",
+        "ws": "^8.18.0"
+    }
+}
